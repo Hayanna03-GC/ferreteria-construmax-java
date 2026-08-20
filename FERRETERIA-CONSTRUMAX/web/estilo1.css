@@ -1,0 +1,66 @@
+h1 {
+    color: #ffffff;
+    font-weight: normal;
+}
+ 
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("img/tools.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+.contenedor {
+    text-align: center;
+}
+ 
+ 
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    align-items: center; 
+}
+ 
+button {
+    background-color: #ffcc99;
+    color: #000000;
+    border: 2px solid black; 
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+ 
+    width: 200px;
+}
+ 
+button:hover {
+    background-color: #ffffcc;
+    color: #000000;
+}
+ 
+a {
+    text-decoration: none;
+}
+ 
+.imagen {
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.5);
+    border: 3px solid black;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.5);
+}
+
+

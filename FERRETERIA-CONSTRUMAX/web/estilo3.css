@@ -1,0 +1,52 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+ 
+    background:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("img/azul.jpg");
+ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    color: white;
+    text-align: center;
+}
+ 
+h1 {
+    margin-top: 50px;
+}
+ 
+button {
+    background-color: #9999ff;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+}
+ 
+button:hover {
+    background-color: #ccccff;
+    transform: scale(1.05);
+}
+ 
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 60%;
+    background: rgba(255,255,255,0.9);
+    color: black;
+}
+ 
+th {
+    background-color: #ccccff;
+    padding: 10px;
+}
+ 
+td {
+    padding: 10px;
+    text-align: center;
+}
